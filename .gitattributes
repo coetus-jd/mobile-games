@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.cs linguist-language=csharp
+*.csproj linguist-language=csharp
+*.sln linguist-language=csharpl
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+*.shader linguist-vendored
+*.cginc linguist-vendored
